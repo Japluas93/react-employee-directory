@@ -64,6 +64,15 @@ function App() {
   const saveLocalEmployees = () => {
     localStorage.setItem("employees", JSON.stringify(data));
   };
+  const getLocalEmployees = () => {
+    if (localStorage.getItem("employees") === null) {
+      localStorage.setItem("employees", JSON.stringify([]));
+    } else {
+      let localEmployee = JSON.parse(localStorage.getItem("employees"));
+
+      setEmployees(localEmployee);
+    }
+  };
 }
 
 export default App;
