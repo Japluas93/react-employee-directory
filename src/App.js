@@ -45,6 +45,22 @@ function App() {
       .then((res) => setData(res.data.results))
       .catch((err) => console.log(err));
   };
+  const filterHandler = () => {
+    switch (status) {
+      case "completed":
+        setFilteredEmployees(
+          employees.filter((employee) => employee.completed === true)
+        );
+        break;
+      case "uncompleted":
+        setFilteredEmployees(
+          employees.filter((employee) => employee.completed === false)
+        );
+      default:
+        setFilteredEmployees(employees);
+        break;
+    }
+  };
 }
 
 export default App;
