@@ -95,6 +95,13 @@ function App() {
         data={data}
         setData={setData}
       />
+      <Table
+        setEmployees={setEmployees}
+        employees={employees}
+        filteredEmployees={filteredEmployees}
+        data={data}
+        setData={setData}
+      />
     </div>
   );
 }
