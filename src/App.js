@@ -23,6 +23,7 @@ function App() {
         <table>
           <tr>
             <th>{employee.name.first}</th>
+            <th>{employee.name.last}</th>
           </tr>
         </table>
       ))}
