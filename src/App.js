@@ -86,6 +86,15 @@ function App() {
       <header>
         <h1>Employee Directory</h1>
       </header>
+      <Form
+        inputText={inputText}
+        employees={employees}
+        setEmployees={setEmployees}
+        setInputText={setInputText}
+        setStatus={setStatus}
+        data={data}
+        setData={setData}
+      />
     </div>
   );
 }
