@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import "./App.css";
-const api = "https://randomuser.me/api/?results=50";
+import API from "./utils/API";
 function App() {
   // const [employees, setEmployees] = useState([]);
   // useEffect(() => {
