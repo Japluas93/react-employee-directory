@@ -36,6 +36,10 @@ function App() {
   //     ))}
   //   </div>
   // );
+  useEffect(() => {
+    getData();
+  }, []);
+
   const getData = () => {
     API.getEmployees()
       .then((res) => setData(res.data.results))
