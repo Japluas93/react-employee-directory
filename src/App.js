@@ -3,6 +3,12 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import API from "./utils/API";
 function App() {
+  // Setting the state
+  const [inputText, setInputText] = useState("");
+  const [employees, setEmployees] = useState([]);
+  const [status, setStatus] = useState("all");
+  const [filteredEmployees, setFilteredEmployees] = useState([]);
+  const [data, setData] = useState([]);
   // const [employees, setEmployees] = useState([]);
   // useEffect(() => {
   //   fetch(api)
