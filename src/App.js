@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState, useEffect } from "react";
 import "./App.css";
 const api = "https://randomuser.me/api/?results=50";
