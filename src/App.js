@@ -38,6 +38,7 @@ function App() {
   // );
   useEffect(() => {
     getData();
+    getLocalEmployees();
   }, []);
 
   const getData = () => {
