@@ -41,6 +41,11 @@ function App() {
     getLocalEmployees();
   }, []);
 
+  useEffect(() => {
+    filterHandler();
+    saveLocalEmployees();
+  }, [employees, status]);
+
   const getData = () => {
     API.getEmployees()
       .then((res) => setData(res.data.results))
