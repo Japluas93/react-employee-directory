@@ -19,7 +19,12 @@ function App() {
     <div className="App">
       <button onClick={sortAge}>Sort by age</button>
       {employees.map((employee) => (
-        <h1>{employee.name.first}</h1>
+        // <h1>{employee.name.first}</h1>
+        <table>
+          <tr>
+            <th>{employee.name.first}</th>
+          </tr>
+        </table>
       ))}
     </div>
   );
