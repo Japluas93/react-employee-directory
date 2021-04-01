@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import API from "./utils/API";
+import Table from "./components/Table";
 function App() {
   // Setting the state
   const [inputText, setInputText] = useState("");
