@@ -14,6 +14,7 @@ const Employee = ({
 
   return (
     <div>
+      <img src={employee.picture.medium} alt="employee" />
       <li>{employee.name.first}</li>
       <li>{employee.name.last}</li>
       <li>{employee.cell}</li>
