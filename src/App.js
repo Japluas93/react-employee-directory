@@ -36,6 +36,11 @@ function App() {
   //     ))}
   //   </div>
   // );
+  const getData = () => {
+    API.getEmployees()
+      .then((res) => setData(res.data.results))
+      .catch((err) => console.log(err));
+  };
 }
 
 export default App;
