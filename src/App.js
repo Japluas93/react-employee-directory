@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import API from "./utils/API";
 import Table from "./components/Table";
+import Form from "./components/Form";
 function App() {
   // Setting the state
   const [inputText, setInputText] = useState("");
