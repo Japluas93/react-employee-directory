@@ -61,6 +61,9 @@ function App() {
         break;
     }
   };
+  const saveLocalEmployees = () => {
+    localStorage.setItem("employees", JSON.stringify(data));
+  };
 }
 
 export default App;
