@@ -13,13 +13,17 @@ const Employee = ({
   };
 
   return (
-    <div>
-      <img src={employee.picture.medium} alt="employee" />
-      <li>{employee.name.first}</li>
-      <li>{employee.name.last}</li>
-      <li>{employee.cell}</li>
-      <button onClick={deleteHandler}></button>
-    </div>
+    <tr>
+      <td>
+        <img src={employee.picture.medium} alt="employee" />
+      </td>
+      <td>{employee.name.first}</td>
+      <td>{employee.name.last}</td>
+      <td>{employee.cell}</td>
+      <td>
+        <button onClick={deleteHandler}></button>
+      </td>
+    </tr>
   );
 };
 
