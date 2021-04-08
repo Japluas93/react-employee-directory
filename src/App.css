@@ -19,6 +19,13 @@ form {
   justify-content: center;
   align-items: center;
 }
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 3rem;
+  border: none;
+  background: white;
+}
 /* .App {
   text-align: center;
 }
