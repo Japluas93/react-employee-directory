@@ -99,7 +99,11 @@ function App() {
         setEmployees={setEmployees}
         employees={employees}
         filteredEmployees={filteredEmployees}
-        data={data}
+        data={data.filter((employee) =>
+          `${employee.name.first} ${employee.name.last}`
+            .toLowerCase()
+            .includes(inputText.toLowerCase())
+        )}
         setData={setData}
       />
     </div>
