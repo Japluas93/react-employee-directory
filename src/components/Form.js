@@ -24,7 +24,12 @@ const Form = ({
 
   return (
     <form>
-      <input value={inputText} onChange={inputTextHandler} type="text" />
+      <input
+        value={inputText}
+        onChange={inputTextHandler}
+        type="text"
+        placeholder="Search by name"
+      />
       <button onClick={submitEmployeeHandler} type="submit"></button>
       <div>
         <select onChange={statusHandler} name="todos">
