@@ -32,6 +32,10 @@ form button {
   cursor: pointer;
   transition: all 0.3s ease;
 }
+form button:hover {
+  background: #7847ff;
+  color: white;
+}
 /* .App {
   text-align: center;
 }
