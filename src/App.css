@@ -26,6 +26,12 @@ form button {
   border: none;
   background: white;
 }
+form button {
+  color: #474e63;
+  background: #f7fffe;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 /* .App {
   text-align: center;
 }
