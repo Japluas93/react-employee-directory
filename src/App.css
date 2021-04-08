@@ -36,6 +36,11 @@ form button:hover {
   background: #7847ff;
   color: white;
 }
+.employee-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* .App {
   text-align: center;
 }
