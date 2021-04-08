@@ -17,7 +17,7 @@ This application will allow to view the entire employee directory at once so tha
 # Application Preview
 
 Here is a preview of my web application:  
-![apppreview](Assets/employees.JPG)![apppreview](Assets/su.JPG)
+![apppreview](Assets/employees.JPG)
 
 # Application Link
 
